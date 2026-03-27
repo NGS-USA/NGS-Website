@@ -10,11 +10,11 @@ function App() {
       description: 'Build powerful, responsive websites tailored to your brand and business goals using modern technologies.',
     },
     {
-      title: 'Web Application Development',
-      description: 'Create feature-rich web applications that scale with your business and deliver exceptional user experiences.',
+      title: 'Application Development',
+      description: 'Create feature-rich applications that scale with your business and deliver exceptional user experiences.',
     },
     {
-      title: 'Website Hosting & Management',
+      title: 'Hosting & Management',
       description: 'Reliable hosting solutions with 24/7 monitoring, regular updates, and comprehensive site management.',
     },
     {
@@ -22,7 +22,7 @@ function App() {
       description: 'Boost your site speed and SEO with advanced optimization techniques and best practices.',
     },
     {
-      title: 'Website Maintenance & Support',
+      title: 'Maintenance & Support',
       description: 'Ongoing support, security updates, and maintenance to keep your site running smoothly.',
     },
     {
@@ -39,7 +39,7 @@ function App() {
             <div className="flex items-center space-x-3">
               <img src="/icon-transparent.png" alt="NGS Logo" className="h-12 w-12" />
               <span className="text-2xl font-bold bg-gradient-to-r from-purple-400 to-purple-600 bg-clip-text text-transparent">
-                NG Software
+                NGS
               </span>
             </div>
 
@@ -48,9 +48,9 @@ function App() {
               <a href="#about" className="hover:text-purple-400 transition-colors">About</a>
               <a href="#services" className="hover:text-purple-400 transition-colors">Services</a>
               <a href="#contact" className="hover:text-purple-400 transition-colors">Contact</a>
-              <button className="bg-purple-600 hover:bg-purple-700 px-6 py-2 rounded-lg transition-colors">
+              <a href="#contact" className="bg-purple-600 hover:bg-purple-700 px-6 py-2 rounded-lg transition-colors">
                 Get Started
-              </button>
+              </a>
             </div>
 
             <button
@@ -69,9 +69,9 @@ function App() {
               <a href="#about" className="block hover:text-purple-400 transition-colors py-2">About</a>
               <a href="#services" className="block hover:text-purple-400 transition-colors py-2">Services</a>
               <a href="#contact" className="block hover:text-purple-400 transition-colors py-2">Contact</a>
-              <button className="w-full bg-purple-600 hover:bg-purple-700 px-6 py-2 rounded-lg transition-colors">
+              <a href="#contact" className="block w-full bg-purple-600 hover:bg-purple-700 px-6 py-2 rounded-lg transition-colors text-center">
                 Get Started
-              </button>
+              </a>
             </div>
           </div>
         )}
@@ -85,22 +85,22 @@ function App() {
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div className="space-y-8">
               <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold leading-tight">
-                Web Development
+                Software Development
                 <span className="block bg-gradient-to-r from-purple-400 to-purple-600 bg-clip-text text-transparent">
-                  & Hosting
+                  Solutions
                 </span>
               </h1>
               <p className="text-xl text-gray-300 leading-relaxed">
-                Professional website and web application development with reliable hosting and ongoing support for your business.
+                Custom software applications, web development, and cloud hosting services designed to scale your business and drive innovation.
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
-                <button className="bg-purple-600 hover:bg-purple-700 px-8 py-4 rounded-lg transition-colors flex items-center justify-center gap-2 group">
+                <a href="#contact" className="bg-purple-600 hover:bg-purple-700 px-8 py-4 rounded-lg transition-colors flex items-center justify-center gap-2 group">
                   Get Started
                   <ArrowRight size={20} className="group-hover:translate-x-1 transition-transform" />
-                </button>
-                <button className="border border-purple-600 hover:bg-purple-600/10 px-8 py-4 rounded-lg transition-colors">
+                </a>
+                <a href="#services" className="border border-purple-600 hover:bg-purple-600/10 px-8 py-4 rounded-lg transition-colors">
                   Learn More
-                </button>
+                </a>
               </div>
             </div>
 
@@ -122,7 +122,7 @@ function App() {
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16">
             <h2 className="text-4xl md:text-5xl font-bold mb-4">
-              About <span className="text-purple-400">NG Software</span>
+              About <span className="text-purple-400">NGS</span>
             </h2>
             <div className="w-24 h-1 bg-gradient-to-r from-purple-400 to-purple-600 mx-auto"></div>
           </div>
@@ -144,10 +144,10 @@ function App() {
 
           <div className="bg-gradient-to-br from-purple-900/20 to-black border border-purple-800/30 p-12 rounded-2xl">
             <p className="text-xl text-gray-300 leading-relaxed mb-6">
-              NG Software specializes in creating beautiful, functional websites and web applications for businesses of all sizes. With years of experience in web development and hosting, we help companies establish and grow their digital presence.
+              NGS is a full-service software development company specializing in custom web applications and web hosting solutions. With extensive experience in software development and web hosting, we help businesses build, deploy, and manage their digital presence with excellence.
             </p>
             <p className="text-xl text-gray-300 leading-relaxed">
-              From custom design and development to reliable hosting and ongoing maintenance, we provide comprehensive web solutions that combine technical excellence with strategic thinking to drive your business forward.
+              From software development and web application creation to reliable hosting and ongoing support, we provide comprehensive solutions that blend technical expertise with strategic innovation to accelerate your business growth.
             </p>
           </div>
         </div>
@@ -270,12 +270,12 @@ function App() {
             <div className="flex items-center space-x-3">
               <img src="/icon-transparent.png" alt="NGS Logo" className="h-10 w-10" />
               <span className="text-xl font-bold bg-gradient-to-r from-purple-400 to-purple-600 bg-clip-text text-transparent">
-                NG Software
+                NGS
               </span>
             </div>
 
             <div className="text-gray-400 text-center md:text-left">
-              &copy; 2024 NG Software. All rights reserved.
+              &copy; 2024 NGS. All rights reserved.
             </div>
 
             <div className="flex gap-6">
