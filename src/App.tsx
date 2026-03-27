@@ -204,7 +204,7 @@ function App() {
                 </div>
                 <div>
                   <h3 className="text-xl font-bold mb-1">Email</h3>
-                  <p className="text-gray-300">contact@ngs-solutions.com</p>
+                  <p className="text-gray-300">info@ngs-us.net</p>
                 </div>
               </div>
 
@@ -214,7 +214,7 @@ function App() {
                 </div>
                 <div>
                   <h3 className="text-xl font-bold mb-1">Phone</h3>
-                  <p className="text-gray-300">+1 (555) 123-4567</p>
+                  <p className="text-gray-300">+1 (540) 929-0043</p>
                 </div>
               </div>
 
@@ -224,7 +224,7 @@ function App() {
                 </div>
                 <div>
                   <h3 className="text-xl font-bold mb-1">Location</h3>
-                  <p className="text-gray-300">123 Innovation Drive<br />Tech City, TC 12345</p>
+                  <p className="text-gray-300">Stafford, VA 22554</p>
                 </div>
               </div>
             </div>
