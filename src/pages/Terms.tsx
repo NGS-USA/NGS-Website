@@ -101,7 +101,7 @@ function Terms() {
               <span className="text-purple-400">Disclaimer</span>
             </h1>
             <div className="w-24 h-1 bg-gradient-to-r from-purple-400 to-purple-600 mb-8"></div>
-            <p className="text-gray-400 mb-12">Last Updated: [Insert Date]</p>
+            <p className="text-gray-400 mb-12">Last Updated: [3/27/26]</p>
 
             <div className="space-y-8 text-gray-300 leading-relaxed">
               <div>
@@ -134,7 +134,7 @@ function Terms() {
               Cookie <span className="text-purple-400">Policy</span>
             </h1>
             <div className="w-24 h-1 bg-gradient-to-r from-purple-400 to-purple-600 mb-8"></div>
-            <p className="text-gray-400 mb-12">Last Updated: [Insert Date]</p>
+            <p className="text-gray-400 mb-12">Last Updated: [3/27/26]</p>
 
             <div className="space-y-8 text-gray-300 leading-relaxed">
               <div>
