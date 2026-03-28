@@ -230,13 +230,18 @@ function App() {
             </div>
 
             <div className="bg-gradient-to-br from-purple-900/20 to-black border border-purple-800/30 p-8 rounded-xl">
-              <form className="space-y-6">
+              <form 
+                action="https://formspree.io/f/maqlqolj" 
+               method="POST"
+              className="space-y-6"
+              >
                 <div>
                   <label className="block text-sm font-medium mb-2">Name</label>
                   <input
                     type="text"
                     className="w-full bg-black/50 border border-purple-800/50 rounded-lg px-4 py-3 focus:outline-none focus:border-purple-600 transition-colors"
                     placeholder="Your name"
+                    required
                   />
                 </div>
                 <div>
@@ -245,6 +250,7 @@ function App() {
                     type="email"
                     className="w-full bg-black/50 border border-purple-800/50 rounded-lg px-4 py-3 focus:outline-none focus:border-purple-600 transition-colors"
                     placeholder="your@email.com"
+                    required
                   />
                 </div>
                 <div>
@@ -253,6 +259,7 @@ function App() {
                     rows={4}
                     className="w-full bg-black/50 border border-purple-800/50 rounded-lg px-4 py-3 focus:outline-none focus:border-purple-600 transition-colors resize-none"
                     placeholder="How can we help you?"
+                    required
                   ></textarea>
                 </div>
                 <button className="w-full bg-purple-600 hover:bg-purple-700 px-6 py-3 rounded-lg transition-colors font-medium">
