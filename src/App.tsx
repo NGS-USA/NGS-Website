@@ -286,8 +286,8 @@ function App() {
             </div>
 
             <div className="flex gap-6">
-              <a href="#" className="text-gray-400 hover:text-purple-400 transition-colors">Privacy</a>
-              <a href="#" className="text-gray-400 hover:text-purple-400 transition-colors">Terms</a>
+              <a href="/privacy" className="text-gray-400 hover:text-purple-400 transition-colors">Privacy</a>
+              <a href="/terms" className="text-gray-400 hover:text-purple-400 transition-colors">Terms</a>
             </div>
           </div>
         </div>
