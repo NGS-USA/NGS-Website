@@ -214,7 +214,7 @@ function App() {
                 </div>
                 <div>
                   <h3 className="text-xl font-bold mb-1">Phone</h3>
-                  <p className="text-gray-300">+1 (540) 929-0043</p>
+                  <p className="text-gray-300">+1 (877) 609-3130</p>
                 </div>
               </div>
 
